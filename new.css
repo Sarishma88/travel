@@ -1,0 +1,243 @@
+body{
+    background-color:whitesmoke;
+  }
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      
+  }
+  
+  .navbar{
+      background-color:white;
+      
+  }
+  .navhead{
+      font-size: 70px;
+      font-family: 'Lobster', cursive;
+  }
+  .navhead:hover{
+    color: rgb(4, 4, 155);
+}
+  .d-block{
+      height: 750px;
+  }
+  .caroheading{
+      font-size: 50px;
+      color: white;
+      font-family: fantasy;
+      margin-top: -450px;
+  }
+  .caroheading:hover{
+      color: black;
+  }
+
+  .carobtn{
+      height: 50px;
+      width: 150px;
+      border-radius: 50px;
+      color: black;
+      background-color: white;
+  }
+  .carobtn:hover{
+      background-color: rgb(206, 178, 142);
+  }
+  h4:hover{
+      color: rgb(0, 0, 0);
+  }
+  
+  #q1{
+      text-align: center;
+      color: rgb(4, 4, 155);
+      font-family: 'Lobster', cursive;
+
+  }
+  #buttonmodal{
+      background-color: rgb(4, 4, 155);
+      color: white;
+      height: 40px;
+      width: 100px;
+  }
+  
+    .bg{
+        background-color: whitesmoke;
+    }
+    .gallery {
+  padding: 3rem;
+  background-color:whitesmoke;
+  margin-top:-70px;
+  
+    }
+    #hh2{
+        padding: 2rem;
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        font-family: 'Lobster', cursive;
+    }
+    #hh2:hover{
+        color:rgb(4, 4, 155);
+    }
+    .image{
+        display: block;
+        width: 100%;
+        height: 300px;
+        
+        
+    }
+    .overlay{
+        
+        /* position: absolute; */
+        
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        transition: 0.5s ease;
+        background-color: rgba(138, 194, 207, 0.9);
+    }
+    .caption{
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: (-50%,-50%);
+        text-align: center;
+    }
+    .thumbnail:hover{
+        transform: translateY(-4px);
+    }
+    .img-container:hover .overlay{
+        opacity: 1;
+    }
+    .morebutton{
+        width: 150px;
+        height: 50px;
+        background-color:rgb(4, 4, 155);
+        color: white;
+        border-radius: 30px;
+  
+    }
+    .morebutton:hover{
+        background-color: white;
+        color:rgb(4, 4, 155);
+    }
+  
+  
+  .user-review{
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+  padding-bottom: 50px;
+  background-color: aliceblue;
+  
+  }
+  .user-review:hover{
+      background-color: rgb(230, 214, 193);
+  }
+  .user-review p{
+      padding: 50px 10px 10px 10px;
+  }
+  .user-feedback img{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: relative;
+      margin: -30px 0 20px 40%;
+  
+  }
+  
+  .revimg{
+      height:200px;
+      width: 200px;
+      border-radius: 100px;
+  }
+  
+  
+  
+  
+  .revh1{
+      text-align: center;
+      font-size: 50px;
+      color: rgb(15, 13, 16);
+      font-family: 'Lobster', cursive;
+  }
+  .revh1:hover{
+      color: rgb(4, 4, 155);
+  }
+  **
+  /==========Popular Places===========/
+/----Popular Places---/
+.popular {
+   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 340px;
+  }
+  .popular:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:linear-gradient(rgba(26, 144, 255, 0.5),rgba(236, 5, 236, 0.4)),
+    url(./images/hero-2.jpg)center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+  }
+  .all-image {
+    padding-bottom: 75px;
+    position: relative;
+    margin-top: -105px;
+  }
+  .all-image .single-img {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .all-image .single-img .img-thumb {
+    height: 410px;
+  }
+  .all-image .single-img .img-thumb img {
+    width: 100%;
+    height: 100%;
+  }
+  .all-image .single-img .img-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(164, 182, 199, 0.6);
+    transform: translateX(-50%);
+    transition: 0.5s;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .all-image .single-img .img-hover .title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+  .all-image .single-img .img-hover h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .all-image .single-img:hover .img-hover {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+/==========End of Popular Places===========/
+/========== Services section===========/
